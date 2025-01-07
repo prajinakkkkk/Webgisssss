@@ -1,0 +1,2083 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-01-06T22:14:56Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/163599016",
+        "amenity": "hospital",
+        "name": "Human Rehabilitation and Development Centre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.5105165,
+              27.6289686
+            ],
+            [
+              85.5100429,
+              27.6288257
+            ],
+            [
+              85.5100774,
+              27.628401
+            ],
+            [
+              85.5100013,
+              27.6282429
+            ],
+            [
+              85.510025,
+              27.6281159
+            ],
+            [
+              85.5103341,
+              27.6280728
+            ],
+            [
+              85.5104723,
+              27.6280491
+            ],
+            [
+              85.5105393,
+              27.6280502
+            ],
+            [
+              85.5106086,
+              27.6280618
+            ],
+            [
+              85.5108828,
+              27.6282977
+            ],
+            [
+              85.5113353,
+              27.6283154
+            ],
+            [
+              85.5115292,
+              27.6285191
+            ],
+            [
+              85.5115984,
+              27.6287409
+            ],
+            [
+              85.5116643,
+              27.6290281
+            ],
+            [
+              85.5115108,
+              27.6291636
+            ],
+            [
+              85.5114312,
+              27.6292063
+            ],
+            [
+              85.5113135,
+              27.6292109
+            ],
+            [
+              85.511085,
+              27.6290219
+            ],
+            [
+              85.510793,
+              27.6290783
+            ],
+            [
+              85.5106458,
+              27.628969
+            ],
+            [
+              85.5105165,
+              27.6289686
+            ]
+          ]
+        ]
+      },
+      "id": "way/163599016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/194899597",
+        "amenity": "hospital",
+        "building": "hospital",
+        "layer": "1",
+        "name": "Spinal Injury Rahabilitation Center"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.4918552,
+              27.637713
+            ],
+            [
+              85.4918537,
+              27.6376212
+            ],
+            [
+              85.4917582,
+              27.6376224
+            ],
+            [
+              85.4917567,
+              27.6375352
+            ],
+            [
+              85.49173,
+              27.6375355
+            ],
+            [
+              85.491728,
+              27.6374138
+            ],
+            [
+              85.4917784,
+              27.6374131
+            ],
+            [
+              85.4917764,
+              27.637293
+            ],
+            [
+              85.4918538,
+              27.637292
+            ],
+            [
+              85.4918542,
+              27.6373161
+            ],
+            [
+              85.4919091,
+              27.6373154
+            ],
+            [
+              85.4919077,
+              27.6372355
+            ],
+            [
+              85.4921683,
+              27.6372321
+            ],
+            [
+              85.4921698,
+              27.6373225
+            ],
+            [
+              85.492203,
+              27.6373221
+            ],
+            [
+              85.4922022,
+              27.637273
+            ],
+            [
+              85.4922214,
+              27.6372728
+            ],
+            [
+              85.4922209,
+              27.6372441
+            ],
+            [
+              85.4921969,
+              27.6372444
+            ],
+            [
+              85.4921949,
+              27.6372047
+            ],
+            [
+              85.4921957,
+              27.6371741
+            ],
+            [
+              85.4922913,
+              27.6371728
+            ],
+            [
+              85.4922908,
+              27.6372041
+            ],
+            [
+              85.4922925,
+              27.6372432
+            ],
+            [
+              85.4922641,
+              27.6372435
+            ],
+            [
+              85.4922646,
+              27.6372722
+            ],
+            [
+              85.4922755,
+              27.6372721
+            ],
+            [
+              85.4922752,
+              27.6372514
+            ],
+            [
+              85.4924266,
+              27.6372495
+            ],
+            [
+              85.4924291,
+              27.6373946
+            ],
+            [
+              85.4923923,
+              27.6373951
+            ],
+            [
+              85.4923951,
+              27.6375595
+            ],
+            [
+              85.4923242,
+              27.6375604
+            ],
+            [
+              85.4923252,
+              27.6376148
+            ],
+            [
+              85.4922531,
+              27.6376158
+            ],
+            [
+              85.4922539,
+              27.6376629
+            ],
+            [
+              85.4922299,
+              27.6376632
+            ],
+            [
+              85.4922316,
+              27.6377634
+            ],
+            [
+              85.4921137,
+              27.6377649
+            ],
+            [
+              85.4921141,
+              27.6377913
+            ],
+            [
+              85.491999,
+              27.6377928
+            ],
+            [
+              85.4919977,
+              27.6377111
+            ],
+            [
+              85.4918552,
+              27.637713
+            ]
+          ]
+        ]
+      },
+      "id": "way/194899597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/341520936",
+        "amenity": "hospital",
+        "name": "Cancer Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.5271112,
+              27.6338387
+            ],
+            [
+              85.526996,
+              27.6336443
+            ],
+            [
+              85.527103,
+              27.6335946
+            ],
+            [
+              85.5272182,
+              27.633789
+            ],
+            [
+              85.5271112,
+              27.6338387
+            ]
+          ]
+        ]
+      },
+      "id": "way/341520936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/344541501",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Banepa Hospital",
+        "roof:material": "concrete",
+        "roof:shape": "mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.5184166,
+              27.632894
+            ],
+            [
+              85.518428,
+              27.6328251
+            ],
+            [
+              85.5184406,
+              27.6328268
+            ],
+            [
+              85.5184572,
+              27.6327268
+            ],
+            [
+              85.5185727,
+              27.6327418
+            ],
+            [
+              85.5185436,
+              27.6329104
+            ],
+            [
+              85.5184166,
+              27.632894
+            ]
+          ]
+        ]
+      },
+      "id": "way/344541501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/429577147",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Sheer Memorial Adventist Hospital",
+        "operator": "SDA",
+        "wikidata": "Q7431075"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.5280069,
+              27.6340718
+            ],
+            [
+              85.5279041,
+              27.6341187
+            ],
+            [
+              85.5278081,
+              27.6340874
+            ],
+            [
+              85.5277176,
+              27.6340768
+            ],
+            [
+              85.5275623,
+              27.6340725
+            ],
+            [
+              85.5272686,
+              27.6335474
+            ],
+            [
+              85.5272394,
+              27.633522
+            ],
+            [
+              85.5269695,
+              27.6333584
+            ],
+            [
+              85.5269777,
+              27.632951
+            ],
+            [
+              85.5269533,
+              27.6328188
+            ],
+            [
+              85.5271332,
+              27.6326483
+            ],
+            [
+              85.5271945,
+              27.6325133
+            ],
+            [
+              85.5272721,
+              27.6323926
+            ],
+            [
+              85.5272538,
+              27.6322719
+            ],
+            [
+              85.5272671,
+              27.6322088
+            ],
+            [
+              85.5272317,
+              27.6319588
+            ],
+            [
+              85.5271957,
+              27.6318726
+            ],
+            [
+              85.5273303,
+              27.6318412
+            ],
+            [
+              85.527518,
+              27.6318875
+            ],
+            [
+              85.5276455,
+              27.6318602
+            ],
+            [
+              85.5277487,
+              27.6319802
+            ],
+            [
+              85.5278439,
+              27.632301
+            ],
+            [
+              85.527978,
+              27.6325244
+            ],
+            [
+              85.5278962,
+              27.6325873
+            ],
+            [
+              85.528033,
+              27.632844
+            ],
+            [
+              85.5280102,
+              27.6330697
+            ],
+            [
+              85.5281068,
+              27.6333798
+            ],
+            [
+              85.5280706,
+              27.6334963
+            ],
+            [
+              85.5284058,
+              27.633785
+            ],
+            [
+              85.5284513,
+              27.6338184
+            ],
+            [
+              85.5284213,
+              27.6339148
+            ],
+            [
+              85.5283576,
+              27.6338967
+            ],
+            [
+              85.5282416,
+              27.6339466
+            ],
+            [
+              85.5282101,
+              27.6339703
+            ],
+            [
+              85.5281451,
+              27.6340343
+            ],
+            [
+              85.5280721,
+              27.6341251
+            ],
+            [
+              85.5280461,
+              27.6341213
+            ],
+            [
+              85.528039,
+              27.634127
+            ],
+            [
+              85.5280069,
+              27.6340718
+            ]
+          ]
+        ]
+      },
+      "id": "way/429577147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042978351",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Dhulikhel Clinic Center"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.54128,
+              27.6244857
+            ],
+            [
+              85.5413082,
+              27.6244335
+            ],
+            [
+              85.5413357,
+              27.6244453
+            ],
+            [
+              85.5413967,
+              27.6244715
+            ],
+            [
+              85.5413679,
+              27.6245178
+            ],
+            [
+              85.54128,
+              27.6244857
+            ]
+          ]
+        ]
+      },
+      "id": "way/1042978351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1097620098",
+        "amenity": "hospital",
+        "building:part": "roof",
+        "roof:material": "clay_tiles"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.5218853,
+              27.6297964
+            ],
+            [
+              85.5218268,
+              27.6297151
+            ],
+            [
+              85.522022,
+              27.6296046
+            ],
+            [
+              85.5220719,
+              27.6296781
+            ],
+            [
+              85.522044,
+              27.6296941
+            ],
+            [
+              85.5220587,
+              27.6297144
+            ],
+            [
+              85.5220238,
+              27.6297342
+            ],
+            [
+              85.5220107,
+              27.6297159
+            ],
+            [
+              85.5219861,
+              27.6297298
+            ],
+            [
+              85.521991,
+              27.6297366
+            ],
+            [
+              85.5218853,
+              27.6297964
+            ]
+          ]
+        ]
+      },
+      "id": "way/1097620098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1767445004",
+        "amenity": "hospital",
+        "name": "Krishna Prasad Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5237477,
+          27.6296267
+        ]
+      },
+      "id": "node/1767445004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1833834845",
+        "amenity": "clinic",
+        "name": "Kavre Health Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5242964,
+          27.6283867
+        ]
+      },
+      "id": "node/1833834845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1833839894",
+        "amenity": "pharmacy",
+        "name": "Chandeswori Medical Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.52216,
+          27.6302214
+        ]
+      },
+      "id": "node/1833839894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3156329581",
+        "amenity": "dental clinic",
+        "name": "Satya Sai Dental Hospital",
+        "phone": "011661574"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5284279,
+          27.6292701
+        ]
+      },
+      "id": "node/3156329581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3156329582",
+        "amenity": "pharmacy",
+        "name": "Patanjali Chikitsataya Sewa Kendra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5278325,
+          27.6289042
+        ]
+      },
+      "id": "node/3156329582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3156343839",
+        "amenity": "clinic",
+        "name": "Baidhya Sher Bahadur Memorial Polyclinic (p) Ltd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.525507,
+          27.6299331
+        ]
+      },
+      "id": "node/3156343839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465721389",
+        "addr:street": "Araniko Raj Marga",
+        "amenity": "pharmacy",
+        "name:en": "Patanjali Ayurvedic Seva Kendra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5284852,
+          27.6287993
+        ]
+      },
+      "id": "node/4465721389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4469793052",
+        "amenity": "clinic",
+        "name:en": "Banepa Hospital",
+        "phone": "011662418"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5184069,
+          27.6337184
+        ]
+      },
+      "id": "node/4469793052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4532457890",
+        "addr:street": "Budol M.",
+        "amenity": "hospital",
+        "email": "Remeh.bnp@gmail.com",
+        "name:en": "Reyukai Eye Hospital",
+        "phone": "011661580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5353208,
+          27.6307063
+        ]
+      },
+      "id": "node/4532457890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4533952590",
+        "amenity": "clinic",
+        "name:en": "Health Post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5144315,
+          27.6327325
+        ]
+      },
+      "id": "node/4533952590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4533955690",
+        "amenity": "pharmacy",
+        "name:en": "Shiva ram pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5138746,
+          27.6318764
+        ]
+      },
+      "id": "node/4533955690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4574490997",
+        "addr:street": "Chandeshwori Marg",
+        "amenity": "pharmacy",
+        "name:en": "Chandi Pharma",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5275414,
+          27.6341098
+        ]
+      },
+      "id": "node/4574490997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4707667990",
+        "addr:street": "Bus Park M.",
+        "amenity": "pharmacy",
+        "name:en": "Udaya Medical Hall",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "phone": "011-661177"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5202001,
+          27.6306456
+        ]
+      },
+      "id": "node/4707667990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5032818701",
+        "addr:street": "Shreekhanda M.",
+        "amenity": "clinic",
+        "name:en": "Medical shop",
+        "opening_hours": "Mo-Su 06:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5233906,
+          27.6273231
+        ]
+      },
+      "id": "node/5032818701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5660965223",
+        "addr:street": "Araniko Highway",
+        "amenity": "clinic",
+        "name:en": "Banepa Health Care",
+        "phone": "9841107058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5207529,
+          27.6310569
+        ]
+      },
+      "id": "node/5660965223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9597204692",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5414461,
+          27.624109
+        ]
+      },
+      "id": "node/9597204692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9615164957",
+        "addr:postcode": "45210",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Trienetra Medical",
+        "opening_hours": "Su-Sa 7AM-8PM",
+        "phone": "9841004318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5323011,
+          27.6283162
+        ]
+      },
+      "id": "node/9615164957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9692969825",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5412915,
+          27.6233425
+        ]
+      },
+      "id": "node/9692969825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9784655242",
+        "amenity": "hospital",
+        "contact:phone": "11661236",
+        "name:en": "Nepal family planning association",
+        "source": "Field Survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5229136,
+          27.6312461
+        ]
+      },
+      "id": "node/9784655242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9784655249",
+        "amenity": "pharmacy",
+        "name:en": "Baldhya Sher Bahadur Memorial pharm",
+        "source": "Field Survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5237534,
+          27.6303352
+        ]
+      },
+      "id": "node/9784655249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9784655253",
+        "amenity": "hospital",
+        "contact:phone": "11660781",
+        "name:en": "K.B Polyclinic Pvt.ltd",
+        "source": "Field Survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5219661,
+          27.6297685
+        ]
+      },
+      "id": "node/9784655253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9784655259",
+        "amenity": "pharmacy",
+        "contact:phone": "9841438423",
+        "name:en": "Achutananda jotish Ayurvedic Ausadalaya",
+        "source": "Field Survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5236487,
+          27.6290175
+        ]
+      },
+      "id": "node/9784655259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9784655280",
+        "amenity": "pharmacy",
+        "contact:phone": "9860146243",
+        "name:en": "Smart Medical Hall",
+        "source": "Field Survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5250933,
+          27.631875
+        ]
+      },
+      "id": "node/9784655280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9960904377",
+        "amenity": "pharmacy",
+        "name": "bhamashowari pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5196991,
+          27.6363666
+        ]
+      },
+      "id": "node/9960904377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9960917283",
+        "amenity": "pharmacy",
+        "name": "abc health care"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5241723,
+          27.6316932
+        ]
+      },
+      "id": "node/9960917283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9960932621",
+        "amenity": "pharmacy",
+        "name": "Aaurved"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5227454,
+          27.6322912
+        ]
+      },
+      "id": "node/9960932621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9960935696",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5270725,
+          27.6336257
+        ]
+      },
+      "id": "node/9960935696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9960935697",
+        "amenity": "pharmacy",
+        "shop": "medical_supply"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5279221,
+          27.6347633
+        ]
+      },
+      "id": "node/9960935697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9960940221",
+        "amenity": "hospital",
+        "name": "banepa dentel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5215853,
+          27.6306702
+        ]
+      },
+      "id": "node/9960940221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034891",
+        "addr:street": "Sera",
+        "amenity": "pharmacy",
+        "name": "Ugrachandi Medical",
+        "phone": "9849311400, 9841488342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5171162,
+          27.6571228
+        ]
+      },
+      "id": "node/10230034891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034892",
+        "amenity": "pharmacy",
+        "name": "Rural Pharmacy",
+        "phone": "16215466"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5065742,
+          27.6543382
+        ]
+      },
+      "id": "node/10230034892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034893",
+        "addr:street": "Nala",
+        "amenity": "pharmacy",
+        "name": "Nala Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5031296,
+          27.6563512
+        ]
+      },
+      "id": "node/10230034893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034894",
+        "addr:street": "Bhaisipati",
+        "amenity": "pharmacy",
+        "name": "Ausadi Pasal",
+        "name:ne": "औषधी पसल"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4938172,
+          27.6326056
+        ]
+      },
+      "id": "node/10230034894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034895",
+        "addr:street": "Sanga",
+        "amenity": "pharmacy",
+        "name": "Sanga Medical Center",
+        "phone": "9849174350"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4798419,
+          27.6415501
+        ]
+      },
+      "id": "node/10230034895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034896",
+        "addr:street": "Sanga",
+        "amenity": "pharmacy",
+        "name": "Ram Medical Hall",
+        "phone": "9841573672"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4798353,
+          27.6415535
+        ]
+      },
+      "id": "node/10230034896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034897",
+        "addr:street": "Janagal",
+        "amenity": "pharmacy",
+        "name": "Curex Pharmaceutical Pvt. Ltd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.497885,
+          27.6316483
+        ]
+      },
+      "id": "node/10230034897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034898",
+        "amenity": "pharmacy",
+        "name": "Gautam Pharma",
+        "phone": "9841006896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5184616,
+          27.6322205
+        ]
+      },
+      "id": "node/10230034898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034899",
+        "addr:street": "Saga",
+        "amenity": "pharmacy",
+        "name": "Ram Medical Hall",
+        "phone": "9841563672"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4798376,
+          27.6414766
+        ]
+      },
+      "id": "node/10230034899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034900",
+        "addr:street": "Bhaisipati",
+        "amenity": "pharmacy",
+        "name": "Chamunda Medical Hall",
+        "phone": "9841488295"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4923458,
+          27.6366965
+        ]
+      },
+      "id": "node/10230034900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034901",
+        "addr:street": "Tindobato",
+        "amenity": "pharmacy",
+        "name": "Aarogyata Medical"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5184566,
+          27.6314702
+        ]
+      },
+      "id": "node/10230034901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034902",
+        "addr:street": "Karunamarga",
+        "amenity": "pharmacy",
+        "name": "Naya Pharmacy",
+        "name:ne": "नयाँ फार्मेसी"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5140125,
+          27.6426914
+        ]
+      },
+      "id": "node/10230034902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034903",
+        "addr:street": "Godamchok",
+        "amenity": "pharmacy",
+        "name": "Mediserve Health Care",
+        "phone": "11665411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5209723,
+          27.6274268
+        ]
+      },
+      "id": "node/10230034903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034904",
+        "addr:street": "Tarkaribazar",
+        "amenity": "pharmacy",
+        "name": "Xeno Banepa Pharmacy",
+        "phone": "11660932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.527143,
+          27.6291673
+        ]
+      },
+      "id": "node/10230034904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034905",
+        "addr:street": "Teendobato",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Seer Imaging & Diagnostic Centre Banepa Pvt. Ltd",
+        "phone": "11665390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5183409,
+          27.6324807
+        ]
+      },
+      "id": "node/10230034905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034906",
+        "addr:street": "Ghokechaur",
+        "amenity": "pharmacy",
+        "name": "Namaste Medical Shop",
+        "phone": "9849746614"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5272134,
+          27.6335739
+        ]
+      },
+      "id": "node/10230034906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034907",
+        "addr:street": "Banepa",
+        "amenity": "pharmacy",
+        "name": "A. Homoeo Pharmacy",
+        "phone": "9808140093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5229774,
+          27.6311808
+        ]
+      },
+      "id": "node/10230034907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034908",
+        "addr:street": "Godam Chowk",
+        "amenity": "pharmacy",
+        "name": "Niko Medical Hall",
+        "phone": "11664094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5227175,
+          27.6278826
+        ]
+      },
+      "id": "node/10230034908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034909",
+        "addr:street": "Teendhare",
+        "amenity": "pharmacy",
+        "name": "Chirayu Pharmacy",
+        "name:ne": "चिरायु फार्मेसी"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5220339,
+          27.6326999
+        ]
+      },
+      "id": "node/10230034909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034910",
+        "addr:street": "Chandeswori marga",
+        "amenity": "pharmacy",
+        "name": "Ganesthan Medical Hall",
+        "phone": "9803054862"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5242469,
+          27.6317592
+        ]
+      },
+      "id": "node/10230034910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034911",
+        "addr:street": "Chardobato",
+        "amenity": "pharmacy",
+        "name": "Samjhana Homeo Pharmacy",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "phone": "9841321604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5248007,
+          27.6301839
+        ]
+      },
+      "id": "node/10230034911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034912",
+        "addr:street": "Woku",
+        "amenity": "pharmacy",
+        "name": "Janta Paharmacy",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "9841455876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5235195,
+          27.6317711
+        ]
+      },
+      "id": "node/10230034912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034913",
+        "amenity": "pharmacy",
+        "name": "Prayush Pharmacy",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "9851167687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5131183,
+          27.6371783
+        ]
+      },
+      "id": "node/10230034913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034914",
+        "amenity": "pharmacy",
+        "name": "Bishes Pharmacy",
+        "name:ne": "बिसेस फारमेस",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "phone": "104631838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5277451,
+          27.6347364
+        ]
+      },
+      "id": "node/10230034914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034915",
+        "addr:street": "Nala",
+        "amenity": "pharmacy",
+        "name": "Cichi Medical Hall",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "phone": "011-411082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5108232,
+          27.6537322
+        ]
+      },
+      "id": "node/10230034915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034916",
+        "addr:street": "Phoolbajar",
+        "amenity": "pharmacy",
+        "name": "Shivam Pharmacy",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "phone": "9801000086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.513886,
+          27.6320231
+        ]
+      },
+      "id": "node/10230034916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034917",
+        "addr:street": "Ganeshthan Chowk",
+        "amenity": "pharmacy",
+        "name": "Sahaj Pharmacy",
+        "name:ne": "सहज फार्मेसी",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "phone": "11665540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5232294,
+          27.634103
+        ]
+      },
+      "id": "node/10230034917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034918",
+        "addr:street": "Karunamarga",
+        "amenity": "pharmacy",
+        "name": "Subidha Pharmacy",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "phone": "9841251149"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5176656,
+          27.6344599
+        ]
+      },
+      "id": "node/10230034918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034919",
+        "addr:street": "Janagal",
+        "amenity": "pharmacy",
+        "name": "Janagal Pharmacy",
+        "phone": "9841708083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5007679,
+          27.6320062
+        ]
+      },
+      "id": "node/10230034919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034920",
+        "addr:street": "Godamchok",
+        "amenity": "pharmacy",
+        "name": "Door'S Care Pharmacy",
+        "opening_hours": "Mo-Su 10:00-17:01",
+        "phone": "11662851"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5235337,
+          27.6275723
+        ]
+      },
+      "id": "node/10230034920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034921",
+        "addr:street": "Sanga",
+        "amenity": "pharmacy",
+        "name": "Joshi Medical",
+        "opening_hours": "Mo-Su 10:00-17:00",
+        "phone": "9841331812"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.477956,
+          27.6417843
+        ]
+      },
+      "id": "node/10230034921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034942",
+        "addr:street": "Nala",
+        "amenity": "hospital",
+        "name": "Sadbhav Community Hospital",
+        "phone": "11411113"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5113525,
+          27.6538611
+        ]
+      },
+      "id": "node/10230034942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034943",
+        "addr:street": "Bhaisipati",
+        "amenity": "hospital",
+        "name": "Spinal Injury Rehabilitation Center",
+        "phone": "11663058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.492346,
+          27.636392
+        ]
+      },
+      "id": "node/10230034943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034944",
+        "addr:street": "Pulbazar",
+        "amenity": "hospital",
+        "name": "Bhomi Hospital",
+        "name:ne": "भोमि हस्पिटल",
+        "phone": "11665413"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5090439,
+          27.6325128
+        ]
+      },
+      "id": "node/10230034944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034945",
+        "addr:street": "Chardobato",
+        "amenity": "hospital",
+        "name": "Krishna Prasad Hospital",
+        "phone": "11664332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5246921,
+          27.6294156
+        ]
+      },
+      "id": "node/10230034945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034946",
+        "addr:street": "Teendobato",
+        "amenity": "hospital",
+        "name": "Merryland Heath Care",
+        "phone": "11665370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5178761,
+          27.6311524
+        ]
+      },
+      "id": "node/10230034946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034947",
+        "addr:street": "दुच्छ टोल",
+        "amenity": "hospital",
+        "name:ne": "अभय उपचार केन्द्र",
+        "phone": "11662975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5178883,
+          27.6337696
+        ]
+      },
+      "id": "node/10230034947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034948",
+        "addr:street": "Ghokechaur",
+        "amenity": "hospital",
+        "name": "Scheer Memorial Hospital",
+        "phone": "11661111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5273593,
+          27.63342
+        ]
+      },
+      "id": "node/10230034948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034959",
+        "addr:street": "Chardobato",
+        "amenity": "dental clinic",
+        "name": "Dr. Dentocare",
+        "phone": "9745941941"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5238737,
+          27.6301783
+        ]
+      },
+      "id": "node/10230034959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034960",
+        "amenity": "dental clinic",
+        "name": "Premier Dental",
+        "phone": "011-691280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5236618,
+          27.6302412
+        ]
+      },
+      "id": "node/10230034960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034961",
+        "addr:street": "Tindobato",
+        "amenity": "dental clinic",
+        "name": "New Road Dental Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5191421,
+          27.6313109
+        ]
+      },
+      "id": "node/10230034961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034962",
+        "addr:street": "Tindobato",
+        "amenity": "dental clinic",
+        "name:ne": "दाँत बनाउने ठाउँ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5191406,
+          27.6313132
+        ]
+      },
+      "id": "node/10230034962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034963",
+        "addr:street": "Buspark",
+        "amenity": "dental clinic",
+        "name": "Biraj Dental Pvt Ltd",
+        "phone": "11662201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5224692,
+          27.6305345
+        ]
+      },
+      "id": "node/10230034963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034964",
+        "addr:street": "Chardobato",
+        "amenity": "dental clinic",
+        "name": "Doctor'S Care Dental Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5233009,
+          27.6299183
+        ]
+      },
+      "id": "node/10230034964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034965",
+        "addr:street": "Chardobato",
+        "amenity": "dental clinic",
+        "name": "Himal Dental Care",
+        "phone": "9841102371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5242112,
+          27.6301623
+        ]
+      },
+      "id": "node/10230034965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034966",
+        "addr:street": "Bus park",
+        "amenity": "dental clinic",
+        "email": "artisticdentosphere@gmail.com",
+        "name": "Artistic Dentosphere",
+        "phone": "1166577"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.522922,
+          27.6303374
+        ]
+      },
+      "id": "node/10230034966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230034967",
+        "addr:street": "Chardobato",
+        "amenity": "dental clinic",
+        "name": "Sewa Dental Clinic",
+        "opening_hours": "Su-Fr 09:00-17:00",
+        "phone": "9841621039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5239796,
+          27.6297264
+        ]
+      },
+      "id": "node/10230034967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10889516305",
+        "amenity": "clinic",
+        "name": "CWC Polyclinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.523603,
+          27.6303714
+        ]
+      },
+      "id": "node/10889516305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11946927885",
+        "amenity": "pharmacy",
+        "name": "Health and Hygiene International Pvt. Ltd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5229104,
+          27.6257915
+        ]
+      },
+      "id": "node/11946927885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11947085473",
+        "amenity": "pharmacy",
+        "name": "Ugreshwor Pharma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5228835,
+          27.6258693
+        ]
+      },
+      "id": "node/11947085473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11947251768",
+        "amenity": "pharmacy",
+        "name": "Healthy Living Nepal Pvt. Ltd."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5221607,
+          27.6289622
+        ]
+      },
+      "id": "node/11947251768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11949714809",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Seer Imaging and Diagnostic Center Banepa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5183654,
+          27.6324687
+        ]
+      },
+      "id": "node/11949714809"
+    }
+  ]
+}

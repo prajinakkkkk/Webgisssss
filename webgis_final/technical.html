@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Accessibility Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Healthcare Accessibility Analysis with Map Functionalities and Geospatial Analysis</h1>
+    </header>
+
+    <section>
+        <h2>App Objectives</h2>
+        <p>The main objective of this web application is to allow users to analyze healthcare accessibility and environmental factors in various regions using interactive maps. The application provides tools to visualize and analyze the proximity of healthcare facilities, the air quality through the AQI (Air Quality Index), and important geographic data such as district boundaries and airports.</p>
+        
+        <ul>
+            <li><strong>Healthcare Accessibility:</strong> Displaying healthcare facilities on a map to assess proximity to areas of interest, helping in the identification of underserved regions.</li>
+            <li><strong>Air Quality Monitoring:</strong> Real-time AQI data is fetched and displayed on the map to monitor air pollution and its potential impact on health.</li>
+            <li><strong>Geospatial Data Layering:</strong> Allows the overlay of multiple geographic features, such as districts, airports, and provinces, on the map.</li>
+            <li><strong>User Interaction:</strong> Interactive map interface with zoom, pan, and layer toggle capabilities for easy exploration of geographic data.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technology Stack</h2>
+        <h3>Frontend:</h3>
+        <ul>
+            <li><strong>HTML5:</strong> Provides the fundamental structure of the webpage, including elements such as headings, div containers, and script inclusion.</li>
+            <li><strong>CSS:</strong> Used to style the webpage, ensuring it is visually appealing and responsive. The styling mainly ensures that the map container (#map) occupies the full viewport height.</li>
+            <li><strong>JavaScript:</strong> Handles all dynamic functionalities of the map, including initializing the map, adding layers, making API calls, and handling user interaction.</li>
+            <li><strong>Leaflet.js:</strong> A powerful JavaScript library used for rendering interactive maps. Leaflet is responsible for initializing the map and handling tile layers, geospatial data layers, and markers.</li>
+            <li><strong>Axios.js:</strong> A promise-based HTTP client that handles API requests. Axios is used to fetch data from external APIs and GeoJSON files.</li>
+        </ul>
+
+        <h3>Backend:</h3>
+        <ul>
+            <li><strong>GeoServer:</strong> A server that serves geospatial data through services like WMS (Web Map Service). This is used to fetch the province-level boundaries and render them as a layer on the map.</li>
+            <li><strong>Django:</strong> A high-level Python web framework that encourages rapid development and clean, pragmatic design. Django handles the backend logic, user authentication, and API requests, connecting the frontend to geospatial data and APIs.</li>
+        </ul>
+
+        <h3>Database:</h3>
+        <ul>
+            <li><strong>GeoJSON Files:</strong> Geospatial data is stored in GeoJSON format, which includes datasets for healthcare facilities, student locations, district boundaries, and airports. These files are dynamically loaded and rendered on the map.</li>
+        </ul>
+
+        <h3>APIs:</h3>
+        <ul>
+            <li><strong>OpenWeatherMap API:</strong> Provides real-time air quality data (AQI) that is fetched using geographical coordinates (latitude and longitude). The AQI data includes information such as PM2.5, CO, NO2, and O3 levels.</li>
+            <li><strong>Custom GeoJSON Files:</strong> Used to load and display geospatial data such as healthcare facilities, district boundaries, and airports.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Functionality of Each System Component</h2>
+
+        <h3>Map Initialization and Base Layers:</h3>
+        <p>The map is initialized with Leaflet.js, displaying a default map view centered over Nepal with coordinates [27.7172, 85.3240] and a zoom level of 7.</p>
+        <ul>
+            <li><strong>Base Layers:</strong> The application uses three tile layers:
+                <ul>
+                    <li><strong>OpenStreetMap:</strong> Default map style for general navigation.</li>
+                    <li><strong>Satellite View:</strong> Satellite imagery of the map area.</li>
+                    <li><strong>Terrain View:</strong> A terrain-based map style for topographical insights.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Healthcare Facility Layers:</h3>
+        <ul>
+            <li><strong>GeoJSON Data:</strong> Healthcare facility data is loaded dynamically from Namrata.geojson, Prajina.geojson, and Asmita.geojson. Each marker is clickable, and when clicked, a popup displays detailed information about the healthcare facility, including its name and services.</li>
+        </ul>
+
+        <h3>Air Quality Index (AQI) Monitoring:</h3>
+        <ul>
+            <li><strong>OpenWeatherMap API:</strong> Fetches AQI data for different locations based on latitude and longitude. This data includes pollutant levels like PM2.5, CO, NO2, and O3.</li>
+            <li><strong>AQI Markers:</strong> The AQI data is displayed as markers on the map, each showing the current air quality for the region. Clicking on an AQI marker opens a popup with detailed pollution statistics.</li>
+        </ul>
+
+        <h3>Geospatial Data Layers:</h3>
+        <ul>
+            <li><strong>District Layer:</strong> Displays the boundaries of Nepalese districts, loaded from the nepal-districts-new.geojson file. Each district boundary is represented by orange lines, and clicking on a district shows additional information such as its area and length.</li>
+            <li><strong>Airport Layer:</strong> Displays airport locations in Nepal, based on data from hotosm_npl_airports_polygons_geojson.geojson. Each airport has its own marker with relevant details in the popup.</li>
+            <li><strong>Province Layer (WMS):</strong> The application integrates a WMS layer served by GeoServer to display province-level boundaries.</li>
+        </ul>
+
+        <h3>Interactive Layer Control:</h3>
+        <p>The map includes a layer control panel that allows users to toggle between various layers. This includes base layers (OpenStreetMap, Satellite, Terrain) and overlay layers (Districts, AQI, Healthcare Facilities, Airports).</p>
+    </section>
+
+    <section>
+        <h2>User Documentation (Step-by-Step Guide for Using the App)</h2>
+
+        <h3>Opening the App:</h3>
+        <p>Upon accessing the app in a browser, the map will load automatically, displaying a map of Nepal. The map will include a default base layer and several map overlays.</p>
+
+        <h3>Navigating the Map:</h3>
+        <ul>
+            <li><strong>Zoom:</strong> Use the mouse wheel or the zoom buttons in the map's corner to zoom in or out on the map.</li>
+            <li><strong>Pan:</strong> Click and drag anywhere on the map to move to different regions.</li>
+        </ul>
+
+        <h3>Changing Base Layers:</h3>
+        <p>In the top-right corner, you can select between three base map views:</p>
+        <ul>
+            <li><strong>OpenStreetMap:</strong> A standard, detailed map view.</li>
+            <li><strong>Satellite View:</strong> Displays satellite imagery.</li>
+            <li><strong>Terrain View:</strong> Displays topographic terrain data.</li>
+        </ul>
+
+        <h3>Viewing Healthcare Facilities:</h3>
+        <ul>
+            <li><strong>Healthcare Facility Layers:</strong> Three different layers represent healthcare facilities with different icons. These are indicated by colored markers.</li>
+            <li><strong>Selecting Layers:</strong> Use the layer control on the right to toggle visibility of the healthcare facility layers (Layer 1, 2, and 3).</li>
+            <li><strong>Popup Information:</strong> Clicking on a healthcare facility marker will open a popup containing details about the facility, such as its name, services, and other relevant information.</li>
+        </ul>
+
+        <h3>Viewing Air Quality Data:</h3>
+        <ul>
+            <li><strong>AQI Markers:</strong> The app shows air quality levels for different regions. These markers are displayed in real-time based on AQI data fetched from the OpenWeatherMap API.</li>
+            <li><strong>Popup Information:</strong> Clicking on any AQI marker will show detailed information about the air quality, including PM2.5, CO, NO2, and O3 levels.</li>
+        </ul>
+
+        <h3>Viewing District and Airport Data:</h3>
+        <ul>
+            <li><strong>District Boundaries:</strong> Click on any district boundary to view detailed information, such as its name, area, and length.</li>
+            <li><strong>Airport Information:</strong> Airports in Nepal are shown as markers on the map. Clicking on an airport marker will display a popup with details about the airport.</li>
+        </ul>
+
+        <h3>Layer Control Panel:</h3>
+        <p>At the top-right corner of the map, there is a layer control panel. From here, users can toggle the visibility of different map layers. This includes:</p>
+        <ul>
+            <li><strong>Base Layers:</strong> OpenStreetMap, Satellite, and Terrain.</li>
+            <li><strong>Overlay Layers:</strong> Districts, AQI, Healthcare Facilities, Airports, etc.</li>
+        </ul>
+
+        <h3>Interacting with Popups:</h3>
+        <p>Popups provide additional information about specific markers on the map (e.g., healthcare facilities, air quality, districts). Simply click on a marker to open the associated popup.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Healthcare Accessibility App. All rights reserved.</p>
+    </footer>
+</body>
+</html>

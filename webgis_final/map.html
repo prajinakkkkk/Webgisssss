@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapping and Visualization Project</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <h1>Healthcare Accessibility Analysis with Map Functionalities and Geospatial Analysis</h1>
+  <div id="map" style="height: 100vh;"></div>
+  <script>
+    // Map initialization
+    var map = L.map('map').setView([27.7172, 85.3240], 7);
+
+    // OpenStreetMap layer
+    var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 19
+    }).addTo(map);
+
+    // Satellite View layer
+    var satelliteLayer = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+      maxZoom: 20,
+      subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+      attribution: '&copy; Google Maps contributors'
+    });
+
+    // Terrain Layer
+    var terrainLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenTopoMap'
+    });
+
+    // Adding the WMS Layer
+    var wmsLayer = L.tileLayer.wms("http://localhost:8080/geoserver/Province/wms?", {
+      layers: "Province:PROVINCE",
+      format: "image/png",
+      transparent: true,
+      attribution: "© Geoserver",
+      version: "1.1.0"
+    });
+
+    // Define custom icons for healthcare proximity analysis
+    var healthcareIcon1 = L.icon({
+      iconUrl: 'h1.jpeg', 
+      iconSize: [30, 30], 
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    });
+
+    var healthcareIcon2 = L.icon({
+      iconUrl: 'h2.jpeg', 
+      iconSize: [30, 30], 
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    });
+
+    var healthcareIcon3 = L.icon({
+      iconUrl: 'h3.jpeg', 
+      iconSize: [30, 30],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    });
+
+    // Healthcare Proximity Layers with custom icons
+    var healthcareLayer1 = L.geoJSON(null, {
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, { icon: healthcareIcon1 }); 
+      },
+      onEachFeature: function (feature, layer) {
+        var popupContent = "<strong>Healthcare Facility Details:</strong><br>";
+        for (var key in feature.properties) {
+          if (feature.properties.hasOwnProperty(key)) {
+            popupContent += `<strong>${key}:</strong> ${feature.properties[key] || "N/A"}<br>`;
+          }
+        }
+        layer.bindPopup(popupContent);
+      }
+    });
+
+    var healthcareLayer2 = L.geoJSON(null, {
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, { icon: healthcareIcon2 }); 
+      },
+      onEachFeature: function (feature, layer) {
+        var popupContent = "<strong>Healthcare Facility Details:</strong><br>";
+        for (var key in feature.properties) {
+          if (feature.properties.hasOwnProperty(key)) {
+            popupContent += `<strong>${key}:</strong> ${feature.properties[key] || "N/A"}<br>`;
+          }
+        }
+        layer.bindPopup(popupContent);
+      }
+    });
+
+    var healthcareLayer3 = L.geoJSON(null, {
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, { icon: healthcareIcon3 }); 
+      },
+      onEachFeature: function (feature, layer) {
+        var popupContent = "<strong>Healthcare Facility Details:</strong><br>";
+        for (var key in feature.properties) {
+          if (feature.properties.hasOwnProperty(key)) {
+            popupContent += `<strong>${key}:</strong> ${feature.properties[key] || "N/A"}<br>`;
+          }
+        }
+        layer.bindPopup(popupContent);
+      }
+    });
+
+    // Load GeoJSON data and add to the respective layers
+    axios.get('Namrata.geojson')
+      .then(response => healthcareLayer1.addData(response.data))
+      .catch(error => console.error('Error loading healthcare proximity data 1:', error));
+
+    axios.get('Prajina.geojson')
+      .then(response => healthcareLayer2.addData(response.data))
+      .catch(error => console.error('Error loading healthcare proximity data 2:', error));
+
+    axios.get('Asmita.geojson')
+      .then(response => healthcareLayer3.addData(response.data))
+      .catch(error => console.error('Error loading healthcare proximity data 3:', error));
+
+    // Layer for Student GeoJSON
+    var geoJsonStudentLayer = L.geoJSON(null, {
+      style: function (feature) {
+        return { color: "green", weight: 2, fillOpacity: 0.5 };  // Define a visible style
+      },
+      onEachFeature: function (feature, layer) {
+        var popupContent = "<strong>Properties:</strong><br>";
+        for (var key in feature.properties) {
+          if (feature.properties.hasOwnProperty(key)) {
+            popupContent += `<strong>${key}:</strong> ${feature.properties[key]}<br>`;
+          }
+        }
+        layer.bindPopup(popupContent);
+      }
+    });
+
+    // Load and add the student data
+    axios.get('Info.geojson')
+      .then(response => {
+        geoJsonStudentLayer.addData(response.data);  
+        map.invalidateSize();  
+      })
+      .catch(error => console.error('Error loading student data:', error));
+
+    // Layer for Airport GeoJSON
+    var geoJsonAirportLayer = L.geoJSON(null, {
+      style: function (feature) {
+        return { color: "blue", weight: 1, fillOpacity: 0.5 };
+      },
+      onEachFeature: function (feature, layer) {
+        var popupContent = "<strong>Airport Details:</strong><br>";
+        for (var key in feature.properties) {
+          if (feature.properties.hasOwnProperty(key)) {
+            popupContent += `<strong>${key}:</strong> ${feature.properties[key] || "N/A"}<br>`;
+          }
+        }
+        layer.bindPopup(popupContent);
+      }
+    });
+
+    axios.get('hotosm_npl_airports_polygons_geojson.geojson')
+      .then(response => geoJsonAirportLayer.addData(response.data))
+      .catch(error => console.error('Error loading airport data:', error));
+
+    // Layer for Districts GeoJSON
+    var geoJsonDistrictsLayer = L.layerGroup();
+    axios.get('nepal-districts-new.geojson')
+      .then(response => {
+        L.geoJSON(response.data, {
+          style: function (feature) {
+            return { color: "orange", weight: 2, opacity: 0.7 };
+          },
+          onEachFeature: function (feature, layer) {
+            const districtName = feature.properties.DIST_EN || "Unknown";
+            const length = feature.properties.Shape_Leng || "Unknown";
+            const area = feature.properties.Shape_Area || "Unknown";
+            layer.bindPopup(`
+              <b>District:</b> ${districtName}<br>
+              <b>Length:</b> ${length}<br>
+              <b>Area:</b> ${area}<br>
+            `);
+          }
+        }).addTo(geoJsonDistrictsLayer);
+      })
+      .catch(error => console.error('Error loading districts GeoJSON data:', error));
+
+    // AQI Layer
+    var aqiIcon = L.icon({
+      iconUrl: 'aqi.png',
+      iconSize: [30, 30],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    });
+
+    var aqiLayer = L.layerGroup();
+
+    function fetchAQIData(lat, lon, name) {
+      const aqiApiKey = '21d6e39762b5f4afcf4d22bc8d608e15';
+      const aqiApiUrl = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${aqiApiKey}`;
+
+      axios.get(aqiApiUrl)
+        .then(response => {
+          if (response.data && response.data.list && response.data.list.length > 0) {
+            const data = response.data.list[0];
+            const aqiLevels = ['Good (1)', 'Fair (2)', 'Moderate (3)', 'Poor (4)', 'Very Poor (5)'];
+            const aqiIndex = data.main.aqi;
+            const aqiInfo = `
+              <b>Air Quality Index (AQI):</b><br>
+              AQI Level: ${aqiLevels[aqiIndex - 1]}<br>
+              PM2.5: ${data.components.pm2_5} µg/m³<br>
+              PM10: ${data.components.pm10} µg/m³<br>
+              CO: ${data.components.co} µg/m³<br>
+              NO2: ${data.components.no2} µg/m³<br>
+              O3: ${data.components.o3} µg/m³<br>
+              SO2: ${data.components.so2} µg/m³
+            `;
+
+            L.marker([lat, lon], { icon: aqiIcon })
+              .bindPopup(aqiInfo)
+              .addTo(aqiLayer);
+          } else {
+            console.warn(`AQI data is incomplete for ${name || 'unknown location'}`);
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching AQI data:', error);
+        });
+    }
+
+    axios.get('nepal-districts-new.geojson')
+      .then(response => {
+        L.geoJSON(response.data, {
+          onEachFeature: function (feature, layer) {
+            const lat = layer.getBounds().getCenter().lat;
+            const lon = layer.getBounds().getCenter().lng;
+            const name = feature.properties.name;
+            fetchAQIData(lat, lon, name);
+          }
+        }).addTo(aqiLayer);
+      })
+      .catch(error => {
+        console.error('Error loading districts data:', error);
+      });
+
+    // Set up Layer Control
+    var baseLayers = {
+      "OpenStreetMap": osmLayer,
+      "Satellite View": satelliteLayer,
+      "Terrain View": terrainLayer
+    };
+
+    var overlayLayers = {
+      "Districts": geoJsonDistrictsLayer,
+      "AQI": aqiLayer,
+      "Airport": geoJsonAirportLayer,
+      "Province WMS Layer": wmsLayer, 
+      "Students": geoJsonStudentLayer,
+      "Healthcare Proximity Layer 1": healthcareLayer1,
+      "Healthcare Proximity Layer 2": healthcareLayer2,
+      "Healthcare Proximity Layer 3": healthcareLayer3
+    };
+
+    L.control.layers(baseLayers, overlayLayers).addTo(map);
+
+  
+  </script>
+</body>
+</html>
+
+

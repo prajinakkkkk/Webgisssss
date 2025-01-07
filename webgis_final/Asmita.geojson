@@ -1,0 +1,446 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-01-06T22:26:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230055223",
+        "amenity": "hospital",
+        "check_date": "2023-10-23",
+        "emergency": "yes",
+        "internet_access": "wlan",
+        "name": "Dhulikhel Hospital",
+        "name:ne": "धुलिखेल हस्पिटल",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.5473223,
+              27.6168605
+            ],
+            [
+              85.5472281,
+              27.6167165
+            ],
+            [
+              85.5479951,
+              27.6163375
+            ],
+            [
+              85.5482293,
+              27.616649
+            ],
+            [
+              85.5481729,
+              27.6166704
+            ],
+            [
+              85.5483017,
+              27.6168617
+            ],
+            [
+              85.5484211,
+              27.6170423
+            ],
+            [
+              85.5482527,
+              27.6171243
+            ],
+            [
+              85.5481341,
+              27.6171207
+            ],
+            [
+              85.5479919,
+              27.6171065
+            ],
+            [
+              85.5478726,
+              27.6170875
+            ],
+            [
+              85.5476741,
+              27.6170554
+            ],
+            [
+              85.5475534,
+              27.6170269
+            ],
+            [
+              85.5473985,
+              27.6169775
+            ],
+            [
+              85.5473223,
+              27.6168605
+            ]
+          ]
+        ]
+      },
+      "id": "way/230055223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230055228",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2023-10-23",
+        "emergency": "yes",
+        "name": "Pediatrics and Gyn/Obs",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.5475468,
+              27.6164062
+            ],
+            [
+              85.5474744,
+              27.6163587
+            ],
+            [
+              85.5475093,
+              27.6163135
+            ],
+            [
+              85.5474851,
+              27.6163064
+            ],
+            [
+              85.5475464,
+              27.6162402
+            ],
+            [
+              85.5475277,
+              27.6162188
+            ],
+            [
+              85.5476112,
+              27.6161329
+            ],
+            [
+              85.5476618,
+              27.6161095
+            ],
+            [
+              85.5477845,
+              27.616096
+            ],
+            [
+              85.5478085,
+              27.6161276
+            ],
+            [
+              85.5479809,
+              27.6161428
+            ],
+            [
+              85.5479661,
+              27.6162346
+            ],
+            [
+              85.5477856,
+              27.6162351
+            ],
+            [
+              85.5476649,
+              27.6162755
+            ],
+            [
+              85.5475468,
+              27.6164062
+            ]
+          ]
+        ]
+      },
+      "id": "way/230055228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042978351",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Dhulikhel Clinic Center"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.54128,
+              27.6244857
+            ],
+            [
+              85.5413082,
+              27.6244335
+            ],
+            [
+              85.5413357,
+              27.6244453
+            ],
+            [
+              85.5413967,
+              27.6244715
+            ],
+            [
+              85.5413679,
+              27.6245178
+            ],
+            [
+              85.54128,
+              27.6244857
+            ]
+          ]
+        ]
+      },
+      "id": "way/1042978351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1399487323",
+        "amenity": "pharmacy",
+        "source": "Garmin Orgeon 450 GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5596446,
+          27.5749779
+        ]
+      },
+      "id": "node/1399487323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5473226721",
+        "amenity": "clinic",
+        "email": "thranguclinic@gmail.com",
+        "name": "Thrangu Phende Clinic",
+        "phone": "016208384"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.583862,
+          27.5708673
+        ]
+      },
+      "id": "node/5473226721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9427525327",
+        "amenity": "pharmacy",
+        "name": "Aahana Pharmacy",
+        "name:ne": "अहाना फार्मेसी",
+        "phone": "9860431435",
+        "source": "Namobuddha open mapping 2022",
+        "ward": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.589326,
+          27.5690355
+        ]
+      },
+      "id": "node/9427525327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9427525328",
+        "amenity": "pharmacy",
+        "name": "Ram Gopal Baidya Medical Centre",
+        "name:ne": "राम गोपाल वैद्य मेडिकल सेन्टर",
+        "phone": "9841896021",
+        "source": "Namobuddha open mapping 2022",
+        "ward": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5878145,
+          27.5698264
+        ]
+      },
+      "id": "node/9427525328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9427525329",
+        "amenity": "pharmacy",
+        "name": "Sornim Phamacy",
+        "name:ne": "सोर्निम फार्मेसी",
+        "phone": "9851123302",
+        "source": "Namobuddha open mapping 2022",
+        "ward": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5872036,
+          27.570129
+        ]
+      },
+      "id": "node/9427525329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9523316241",
+        "addr:municipality": "panauti_municipality",
+        "addr:province": "bagmati",
+        "amenity": "clinic",
+        "name": "Pariwar Syasthya Clinic",
+        "source": "Field Survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5493449,
+          27.5796098
+        ]
+      },
+      "id": "node/9523316241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9523779646",
+        "addr:municipality": "panauti_municipality",
+        "addr:province": "bagmati",
+        "amenity": "clinic",
+        "name:en": "Prathamik Swasthya Kendra, Sunthan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5297,
+          27.5834
+        ]
+      },
+      "id": "node/9523779646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9524684241",
+        "addr:municipality": "panauti_municipality",
+        "addr:province": "bagmati",
+        "amenity": "pharmacy",
+        "name:en": "Dhaneshwori Medical Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5286148,
+          27.6016929
+        ]
+      },
+      "id": "node/9524684241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9597204692",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5414461,
+          27.624109
+        ]
+      },
+      "id": "node/9597204692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9692969825",
+        "amenity": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5412915,
+          27.6233425
+        ]
+      },
+      "id": "node/9692969825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11285173476",
+        "amenity": "pharmacy",
+        "check_date": "2023-10-24",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "R.K Pharmacy",
+        "name:ne": "रत्न काजी फार्मेसी",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5483886,
+          27.6173557
+        ]
+      },
+      "id": "node/11285173476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11285173477",
+        "amenity": "pharmacy",
+        "check_date": "2023-10-24",
+        "healthcare": "pharmacy",
+        "name": "Achutan Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5485166,
+          27.6171995
+        ]
+      },
+      "id": "node/11285173477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11285182570",
+        "addr:street": "Dulikhel Hospital Road",
+        "amenity": "pharmacy",
+        "name:en": "Balaram Pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.5483346,
+          27.6173311
+        ]
+      },
+      "id": "node/11285182570"
+    }
+  ]
+}

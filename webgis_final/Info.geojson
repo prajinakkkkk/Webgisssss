@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Info",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32645" } },
+"features": [
+
+{ "type": "Feature", "properties": { "Name": "Asmita Banepali", "Municipality": "Dhulikhel", "District": "Kavrepalanchok", "Province": "Bagmati", "Latitude": 27.600693, "Longitude": 85.574875 }, "geometry": { "type": "Point", "coordinates": [ 85.574875, 27.600693 ] } },
+{ "type": "Feature", "properties": { "Name": "Prajina Khatiwada", "Municipality": "Kathmandu Metropolitan City", "District": "Kathmandu", "Province": "Bagmati", "Latitude": 27.7103, "Longitude": 85.3222 }, "geometry": { "type": "Point", "coordinates": [ 85.3222, 27.7103 ] } },
+{ "type": "Feature", "properties": { "Name": "Namrata Shrestha", "Municipality": "Banepa", "District": "Kavre", "Province": "Bagmati", "Latitude": 27.6584, "Longitude": 85.52 }, "geometry": { "type": "Point", "coordinates": [ 85.52, 27.6584 ] } }
+
+]
+}
